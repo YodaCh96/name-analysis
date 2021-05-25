@@ -1,6 +1,6 @@
 # Analyse von Namen mit Arrays
 
-Mit dieser Übung sollen Sie die Verwendung von Arrays in C festigen und vertiefen. Zugleich kann die implizite Typenumwandlung von char zu int (und umgekehrt) repetiert werden. Auf inhaltlicher Ebene sollen Sie ein Programm erstellen, welches einen Namen hinsichtlich verschiedener Aspekte analysieren soll. Der zu analysierende Name kann durch die Benutzerin bzw. den Benutzer bei Start des Programms eingegeben werden. Im Anschluss folgen verschiedene Ausgaben.
+Mit dieser Übung soll die Verwendung von Arrays in C festigen und vertiefen. Zugleich kann die implizite Typenumwandlung von char zu int (und umgekehrt) repetiert werden. Auf inhaltlicher Ebene sollen Sie ein Programm erstellen, welches einen Namen hinsichtlich verschiedener Aspekte analysieren soll. Der zu analysierende Name kann durch die Benutzerin bzw. den Benutzer bei Start des Programms eingegeben werden. Im Anschluss folgen verschiedene Ausgaben.
 
 ## Aufgabenstellung
 
