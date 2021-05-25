@@ -15,7 +15,7 @@ int main()
 
 	// Declare emtpy array which will contain the entered name.
 	char name[100];
-	printf("Geben Sie bitte Ihren Namen ein: "); // Prompt user to type a name
+	printf("Please enter your name: "); // Prompt user to type a name
 	// Read entered name with up to 99 characters. Automatically set name[99] = '\0'
 	scanf_s("%99s", name, 100);
 
@@ -46,7 +46,7 @@ int main()
 			distinctLetterCount++;
 		}
 	}
-	printf("Der Name '%s' enth\204lt %d verschiedene Buchstaben.\n", name, distinctLetterCount);
+	printf("The name '%s' contains %d different letters.\n", name, distinctLetterCount);
 
 	// Declare and initialize a character array containing all vowels (lowercase).
 	char vowels[] = { 'a', 'e', 'i', 'o', 'u' };
@@ -67,7 +67,7 @@ int main()
 
 	// Print the count and actual values of missing vowels.
 	if (missingVowelCount > 0) {
-		printf("Insgesamt fehlen %d Vokale im Namen '%s':", missingVowelCount, name);
+		printf("In total, %d vowels are missing from the name '%s':", missingVowelCount, name);
 		for (int vowelIndex = 0; vowelIndex < (sizeof(vowels) / sizeof(char)); vowelIndex++)
 		{
 			if (vowels[vowelIndex] < 'Z') {
@@ -76,7 +76,7 @@ int main()
 		}
 	}
 	else {
-		printf("Der Name '%s' enth\204lt alle Vokale.", name);
+		printf("The name '%s' contains all vowels.", name);
 	}
 
 	printf("\n\n");
